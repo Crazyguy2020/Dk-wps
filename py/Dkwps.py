@@ -98,7 +98,7 @@ def main(sid, userid):
     invite = wps_invite(sid)
     sign_in = wps_sign_in(userid)
     content = invite + sign_in
-    api = "https://sc.ftqq.com/[your-key].send"
+    api = "https://sc.ftqq.com/SCU112474T7e8d411b48136b3f8ba49d7b63d10c475f55027323f84.send"
     title = "Dk-WPS打卡通知"
     data = {
         "text": title,
